@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container1">
+    <header class="head">  
+      <h1>Onitsuka Tiger</h1>
+      <p>Classic Japanese sneakers with a modern twist</p>
+    </header>
+
+    <figure class="image-section">
+      <img src="/product-card/shoes" alt="White and blue Onitsuka Tiger sneakers" />
+    </figure>
+
+    <div class="price">
+      <h2>$129.99</h2>
+    </div>
+
+    <div class="size">
+      <label for="size-select">Select Size:</label>
+      <select id="size-select" name="size">
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+      </select>
+      <button id="buy">Add to Cart</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 600px;
+    height: 650px;
+    background: linear-gradient(135deg, #d2e1e2, #004bc5);
+    border: 2px solid #004bc5;
+    border-radius: 10px;
+    color: rgb(91, 67, 67);
+
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h2{
+    margin: 10px 15px;
+}
+p{
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff9f9;
+}
+button{
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #004bc5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #003a9e;
+}
+.size{
+    display: block;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 10px;
+}
+button.size{
+    display: block;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.size {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
